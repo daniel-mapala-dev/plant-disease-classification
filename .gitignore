@@ -1,0 +1,40 @@
+# ===== Dataset (huge files - never commit) =====
+dataset/
+PlantVillage Dataset (Labeled)/
+
+# ===== Model files (too large for GitHub) =====
+models/*.h5
+models/*.keras
+*.h5
+*.keras
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Misc =====
+python
